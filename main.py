@@ -17,7 +17,7 @@ with st.expander("Start Camera"):
         st.image(gray_img)
 
         # Add download buttons for both images
-        col1, col2 = st.beta_columns(2)
+        col1, col2 = st.columns(2)
 
         # Download button for grayscale image
         buffer = io.BytesIO()
